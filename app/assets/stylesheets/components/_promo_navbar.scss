@@ -5,5 +5,17 @@
   background-color: rgb(28, 27, 26);
   overflow: hidden;
   padding: 16px 0;
+  white-space: nowrap;
+  position: relative;
 }
 // promo-navbar-container
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+
+}
