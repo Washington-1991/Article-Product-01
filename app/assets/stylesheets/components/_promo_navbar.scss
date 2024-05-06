@@ -4,6 +4,7 @@
   height: 5vh;
   width: 100%;
   background-color: rgb(28, 27, 26);
+  width: calc(--w * 1px);
   overflow: hidden;
   padding: 16px 0;
   white-space: nowrap;
@@ -25,4 +26,8 @@
 :root {
   --w: 300;
   --speed: 1.5s;
+}
+
+.g-container {
+
 }
