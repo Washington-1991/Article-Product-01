@@ -44,13 +44,12 @@ ul li {
   }
 }
 
-@keyframes liMove {
-  0% {
-    transform: translate(0, 0);
+@keyframes liSlide {
+  from {
+    transform: translateX(0);
   }
-  80%,
-  100%  {
-    transform: translate(calc(var(--w) * -1px), 0);
+  to{
+    transform: translateX(-100%);
   }
 }
 
