@@ -12,12 +12,17 @@
 }
 // promo-navbar-container
 
-@keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to{
-    transform: translateX(-100%);
-  }
+// @keyframes slide {
+//   from {
+//     transform: translateX(0);
+//   }
+//   to{
+//     transform: translateX(-100%);
+//   }
 
+// }
+
+:root {
+  --w: 300;
+  --speed: 1.5s;
 }
