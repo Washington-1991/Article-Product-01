@@ -58,3 +58,9 @@ ul li {
     transform: translate(calc(var(--w) * -1px), 0);
   }
 }
+
+.ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
