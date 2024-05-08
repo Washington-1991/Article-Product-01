@@ -1,4 +1,6 @@
 .home-card-product {
+  width: 100vh;
+  height: 100vh;
   display: flex;
   img {
     width: 525px;
@@ -6,6 +8,7 @@
   }
 
   .home-card-information{
+
     border: solid 1px black;
   }
 }
