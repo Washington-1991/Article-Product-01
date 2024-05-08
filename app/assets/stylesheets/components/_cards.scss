@@ -1,5 +1,5 @@
 .home-card-product {
-  width: 100vh;
+  width: 100%;
   height: 100vh;
   display: flex;
   border: solid 1px black;
@@ -12,7 +12,13 @@
   .home-card-information{
     width: 100%;
     height: 100%;
-
     border: solid 1px rgb(255, 0, 0);
+
+    .reviews{
+      width: 100%;
+      height:10vh;
+      border: solid 1px rgb(0, 255, 0);
+    }
+
   }
 }
