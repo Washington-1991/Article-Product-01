@@ -23,6 +23,6 @@
 
   style.innerHTML = '
   @keyframes my-animation'{
-    0%{${position}:-${document.querySelector('.text')}}
-  }
+    0%{${position}:-${document.querySelector('.text').offsetWidth + 10}px;}
+  }`;
 </script>
