@@ -11,21 +11,3 @@
   background-color: rgb(34, 34, 37);
   border: solid 1px rgb(0, 0, 255);
 }
-
-.group {
-  position: relative;
-  height: 30px;
-  overflow: hidden;
-  color: white;
-  background-color: rgb(34, 34, 37);
-  border-bottom: 2px solid blue;
-  border-top: 2px solid blue;
-}
-
-.text {
-  position: absolute;
-  margin: 5px 0;
-  padding: 0;
-  width: max-content;
-  animation: my-animation 24s linear infinite;
-}
