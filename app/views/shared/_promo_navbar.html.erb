@@ -20,4 +20,9 @@
 <script>
   var style = document.createElement('style');
   var position = 'right'
+
+  style.innerHTML = '
+  @keyframes my-animation'{
+    0%{${position}:-${document.querySelector('.text')}}
+  }
 </script>
