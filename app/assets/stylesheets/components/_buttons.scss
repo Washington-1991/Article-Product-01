@@ -1,4 +1,4 @@
-.add-to-basket{
+.add-to-basket {
   background-color: rgb(225, 225, 5);
   color: white;
   font-size: 24px;
@@ -17,7 +17,8 @@
   transition: 1s;
 }
 
-.add-to-basket:after{
+.add-to-basket:active {
   background-color: green;
   border: solid 2px green;
+  transition: 0s;
 }
