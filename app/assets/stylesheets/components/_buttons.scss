@@ -7,7 +7,7 @@
   border-radius: 15px;
   padding: 8px;
 
-  .add-to-basket:hover {
+  &add-to-basket:hover {
     background-color: rgb(179, 179, 6);
     border: solid 2px rgb(179, 179, 6);
     color: white;
@@ -15,6 +15,7 @@
   }
 
   .add-to-basket::after{
-
+    background-color: green;
+    border: solid 2px green;
   }
 }
