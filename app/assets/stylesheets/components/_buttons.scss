@@ -6,11 +6,15 @@
   border: solid 2px rgb(225, 225, 5);
   border-radius: 15px;
   padding: 8px;
-}
 
-.add-to-basket:hover {
-  background-color: rgb(179, 179, 6);
-  border: solid 2px rgb(179, 179, 6);
-  color: white;
-  transition: 1s;
+  .add-to-basket:hover {
+    background-color: rgb(179, 179, 6);
+    border: solid 2px rgb(179, 179, 6);
+    color: white;
+    transition: 1s;
+  }
+
+  .add-to-basket::after{
+
+  }
 }
