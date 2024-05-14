@@ -28,7 +28,9 @@
 @media screen and (max-width: 1024px){
 
   .home-card-product{
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
 }
