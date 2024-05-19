@@ -31,23 +31,17 @@
   }
 
   25%{
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
-  45%{
-    transform: translateX(-100%);
-  }
+
   50%{
     transform: translateX(-200%);
   }
-  70%{
-    transform: translateX(-200%);
-  }
+
   75%{
     transform: translateX(-300%);
   }
-  95%{
-    transform: translateX(-300%);
-  }
+
   100%{
     transform: translateX(0);
   }
