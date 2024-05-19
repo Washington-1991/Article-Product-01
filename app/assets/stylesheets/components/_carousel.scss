@@ -20,9 +20,11 @@
   width: 100%;
   display: flex;
   animation: slide 10s infinite;
-  img{
-    width: 100%;
-  }
+
+}
+
+.wrapper img{
+  width: 100%;
 }
 
 @keyframes slide{
