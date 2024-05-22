@@ -18,15 +18,12 @@
   height: 525px;
   display: flex;
   animation: slide 10s infinite;
-  object-fit: cover;
-  .wrapper img {
-    object-fit: cover;
-  }
 
 }
 
 .wrapper img{
   width: 100%;
+  object-fit: cover;
 }
 
 @keyframes slide{
